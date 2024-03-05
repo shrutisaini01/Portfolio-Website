@@ -1,0 +1,77 @@
+.contactMe {
+    background-color: aquamarine; 
+    background-image: url('../images/portfolio1.avif');
+    margin: 15px 59px;
+    padding: 12px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactMe h1 {
+    font-family: 'Protest Riot', sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 12px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.contactBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 89px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 60vw;
+    align-self: center;
+}
+
+.formBox {
+    margin: 30px;
+    padding-left: 20px;
+} 
+
+.formBox textarea {
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.form-input {
+    border-radius: 30px;
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 378px; 
+    padding: 10px;
+}
+
+.btn {
+    width: 88px;
+    margin: auto 173px ;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    background-color: brown;
+    color: whitesmoke;
+}
+
+.other {
+    color: blanchedalmond;
+    font-family: 'Protest Riot', sans-serif;
+    /* margin: 15px 59px; */
+    margin-top: 15px;
+    margin-bottom: auto;
+    margin-left: 59px;
+    margin-right: auto;
+    padding: 12px 19px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.middle a {
+    text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 28px;
+} 
+
+.left ul{
+    display: flex;
+    align-items: center;
+}
+
+.left ul li {
+    list-style: none;
+    margin: 21px 18px;
+    font-size: 25px;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.left ul li a:hover {
+    font-size: 30px;
+    font-family: 'Protest Riot', sans-serif;
+    color: burlywood;
+}
+
+.middle {
+    margin: auto 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 55px;
+    color: papayawhip;
+}
+
+.name:hover {
+    animation: colorTransition 1s infinite;
+    font-size: 58px;
+}
+
+@keyframes colorTransition {
+    0% {
+        color: white;
+    }
+    50% {
+        color: blueviolet;
+    }
+    100% {
+        color: palevioletred;
+    }
+}
+
+.seperate {
+    margin: 0 23px;
+    padding: 0px 38px;
+}
+
+.seperate hr {
+    color: yellowgreen;
+}
+
+.content {
+    margin: 38px;
+    padding: 20px;
+}
+
+.intro {
+    margin: 10px 95px;
+    font-size: 44px;
+    padding: 5px;
+    font-family: 'Protest Riot', sans-serif;
+    color: white;
+}
+
+.intro:hover {
+    margin-top: 5px;
+    color: aquamarine;
+}
+
+.about {
+    display: flex;
+}
+
+.about hr {
+    color: yellowgreen;
+}
+
+.image {
+    margin-top: 34px;
+    margin-bottom: 25px;
+    margin-left: 41px;
+    margin-right: 162px;
+}
+
+.image img {
+    display: block; 
+    width: 354px;
+    height: 354px;
+    border-radius: 50%; 
+    border: 4px solid white;
+    transition: transform 0.5s ease; 
+}
+
+.image img:hover {
+    transform: scale(1.2); 
+}
+
+.prof {
+    margin: 16px;
+    padding: 22px;
+    font-size: 26px;
+    color: white;
+}
+
+.prof h4 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.projects {
+    /*background-color: white; */
+    margin: 38px;
+    padding: 20px;
+}
+
+.one img, 
+ .two img, 
+  .three img {
+    height: 264px;
+    width: 360px;
+    margin: 29px;
+    border: 4px solid white;
+}
+
+.one img:hover, 
+ .two img:hover, 
+  .three img:hover{
+    border-radius: 50%;
+  }
+
+.one, .two, .three {
+    margin: 15px;
+}
+
+.info, 
+ .info2,
+  .info3 {
+    display: flex;
+}
+
+.info hr,
+ .info2 hr,
+  .info3 hr {
+    margin-left: 55px;
+    color: yellowgreen;
+}
+
+.explain, 
+ .explain2,
+  .explain3 {
+    margin: 43px;
+    color: white;
+}
+
+.explain h3, 
+ .explain2 h3,
+  .explain3 h3 {
+    font-size: 23px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.explain p, 
+ .explain2 p,
+ .explain3 p {
+    margin-bottom: 24px;
+    font-size: 26px;
+}
+
+.explain p, li,
+ .explain2 p, li,
+  .explain3 p, li {
+    font-size: 26px;
+    color: white;
+}
+
+.bottom {
+    margin: 10px 58px;
+    padding: 15px;
+}
+
+.connection {
+    color: white;
+}
+
+.connection a{
+    text-decoration: none;
+    color: rgb(237, 182, 182);
+    font-size: larger;
+}
+
+.connection h3 {
+    margin-top: 13px;
+    padding: 3px;
+}
+
+h2 {
+    color: white;
+}
