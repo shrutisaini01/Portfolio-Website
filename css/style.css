@@ -145,7 +145,8 @@ body {
 
 .one img, 
  .two img, 
-  .three img {
+  .three img,
+    .four img {
     height: 264px;
     width: 360px;
     margin: 29px;
@@ -154,37 +155,42 @@ body {
 
 .one img:hover, 
  .two img:hover, 
-  .three img:hover{
+  .three img:hover,
+   .four img:hover{
     border-radius: 50%;
   }
 
-.one, .two, .three {
+.one, .two, .three, .four {
     margin: 15px;
 }
 
 .info, 
  .info2,
-  .info3 {
+  .info3,
+   .info4 {
     display: flex;
 }
 
 .info hr,
  .info2 hr,
-  .info3 hr {
+  .info3 hr,
+   .info4 hr {
     margin-left: 55px;
     color: yellowgreen;
 }
 
 .explain, 
  .explain2,
-  .explain3 {
+  .explain3,
+    .explain4 {
     margin: 43px;
     color: white;
 }
 
 .explain h3, 
  .explain2 h3,
-  .explain3 h3 {
+  .explain3 h3,
+    .explain4 h3 {
     font-size: 23px;
     margin-bottom: 24px;
     color: white;
@@ -192,14 +198,16 @@ body {
 
 .explain p, 
  .explain2 p,
- .explain3 p {
+ .explain3 p,
+ .explain4 p{
     margin-bottom: 24px;
     font-size: 26px;
 }
 
 .explain p, li,
  .explain2 p, li,
-  .explain3 p, li {
+  .explain3 p, li,
+  .explain4 p, li {
     font-size: 26px;
     color: white;
 }

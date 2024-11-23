@@ -1,0 +1,32 @@
+.mainContent {
+    margin: 0 23px;
+    padding: 0px 38px;
+    margin-top: 28px;
+}
+
+.mainContent h3 {
+    color: white;
+    text-align: center;
+}
+
+.certificates{
+    margin: 20px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.certificate1,.certificate2,.certificate3,.certificate4,.certificate5 {
+    margin-bottom: 5px;
+}
+
+.certificates h4 {
+    color: white;
+}
+
+.images {
+    height: 350px;
+    width: 600px;
+    margin: 29px;
+    border: 4px solid white;
+}

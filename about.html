@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>About Me</title>
+        <link rel="icon" href="images/about.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/contact.css"/>
@@ -10,6 +11,75 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+        <style>
+            /* Custom styles for About Me page */
+            /* Darker background for better contrast */
+body {
+    background-color: #1d1f23; /* Dark background */
+    color: #f4f4f4; /* Light text color */
+}
+
+/* Adjusted heading styles */
+h1 {
+    color: #4CAF50; /* Darker Green for better visibility */
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #FF6347; /* Darker orange for better contrast */
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+p {
+    color: #e0e0e0; /* Light gray text for better readability */
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ul {
+    color: #dcdcdc; /* Light gray for list items */
+    font-size: 1.1em;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.aboutMe {
+    padding: 20px;
+    background-color: #2a2a2a; /* Slightly darker container */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure the footer has good visibility too */
+footer {
+    background-color: #333; /* Dark footer for consistency */
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+            footer h1, footer h3 {
+                color: #333;
+            }
+
+            footer {
+                background-color: #f1f1f1;
+                padding: 15px;
+                text-align: center;
+                margin-top: 30px;
+                border-radius: 5px;
+            }
+        </style>
     </head>
     <body>
         <nav class="navbar">
@@ -21,44 +91,75 @@
             <div class="left">
                 <ul class="links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <!-- <li><a href="contact.html">Contact</a></li> -->
                     <li><a href="about.html">About</a></li>
+                    <li><a href="achieve.html">Achievements</a></li>
                   </ul>
             </div>
         </nav>
-        <div class="seperate"><hr></div>
+        <div class="separate"><hr></div>
         
         <div class="aboutMe">
             <h1>About Me</h1>
-            <p>Greetings,
-            I am Shruti Saini, a passionate and dedicated Full Stack Web Developer with a strong foundation in Data Structures and Algorithms (DSA) concepts. Right now, I am pursuing Btech CSE from Graphic Era Hill University, Dehradun Campus and I am in my 2nd year of graduation.</p>
-            <h1>My Expertise</h1>
-            <p>As a MERN Stack Web Developer, I specialize in crafting elegant and efficient solutions that leverage the latest web technologies. On the frontend, I excel in creating engaging user interfaces using HTML, CSS, and JavaScript frameworks like React.js. I am committed to delivering seamless and responsive experiences across all devices, ensuring optimal user satisfaction.
-                On the backend, I am proficient in building RESTful APIs and server-side applications using Node.js, Express.js. My expertise extends to database management systems such as MongoDB, where I focus on designing robust database schemas and optimizing query performance.</p>
-            <h1>Data Structures And Algorithms</h1>
-            <p>In addition to my web development skills, I have a keen interest in Data Structures and Algorithms, which I consider the bedrock of software engineering. My solid understanding of fundamental DSA concepts enables me to devise efficient and scalable solutions to complex computational problems, enhancing the performance and reliability of web applications.</p>
-            <h1>Professional Approach</h1>
-            <p>I am known for my proactive and collaborative approach to project development. I thrive in dynamic environments where creativity and innovation are valued, and I am always eager to take on new challenges. I believe in continuous learning and staying abreast of emerging technologies and industry best practices to deliver cutting-edge solutions that drive business success.</p>
-            <h1>Conclusion</h1>
-            <p>As a student eager to kickstart my journey in software development, I am enthusiastically seeking internship or other opportunities to apply my skills and grow in a professional environment.
-
-                With a solid foundation in web development and a passion for learning, I am eager to contribute to meaningful projects, collaborate with experienced professionals, and gain hands-on experience to further my career aspirations.
-                
-                I am excited about the prospect of joining a dynamic team, making valuable contributions, and embracing new challenges. Thank you for considering my application. I am eager to bring my enthusiasm and dedication to your organization.               
+            <p>Greetings,</p>
+            <p>
+                I am Shruti Saini, a passionate and driven Computer Science Engineering student at Graphic Era Hill University, Uttarakhand, currently in my second year with a CGPA of 8.5. I have a strong interest in full-stack development, machine learning, and solving complex problems using algorithms and data structures.
+                <br>Having completed my schooling in Roorkee at Sheffield International School, I achieved an outstanding 95.6% in Class 12 (PCM, 2021-22) and 94.2% in Class 10 (2019-2020).
             </p>
+            
+            <h2>My Expertise</h2>
+            <p>
+                As a developer, I specialize in creating dynamic and efficient solutions with the following skills:
+                <ul>
+                    <li><strong>Web Development:</strong> Expertise in front-end technologies like HTML, CSS, JavaScript, and back-end frameworks such as Node.js and Express.js.</li>
+                    <li><strong>Machine Learning:</strong> Skilled in predictive modeling using Python, Streamlit, and machine learning algorithms like Random Forest, as demonstrated in my disease detection project.</li>
+                    <li><strong>Database Management:</strong> Proficient in using MySQL to design robust database schemas and optimizing query performance.</li>
+                </ul>
+            </p>
+            
+            <h2>Technical Projects</h2>
+            <p>
+                My projects showcase my ability to tackle real-world challenges:
+                <ul>
+                    <li><strong>Multiple Disease Detection System:</strong> An AI-powered app that predicts health conditions with high accuracy using machine learning.</li>
+                    <li><strong>Listify:</strong> A full-stack application that integrates real-time social media trends with e-commerce search, improving product discoverability.</li>
+                    <li><strong>StellarScope:</strong> A space exploration website featuring real-time space news, live updates, and interactive features.</li>
+                </ul>
+            </p>
+        
+            <h2>Professional Experience</h2>
+            <p>
+                I recently completed a 4-month internship as a <strong>WordPress Developer Intern</strong> at GaoTek Inc., where I developed and customized WordPress websites, integrated WooCommerce features, and optimized the user experience through troubleshooting and best practices.
+            </p>
+        
+            <h2>Problem-Solving & Interview Experience</h2>
+            <p>
+                I recently showcased my problem-solving abilities in interviews with top tech companies like <strong>Amazon</strong> and <strong>Google</strong>, demonstrating my proficiency in Data Structures and Algorithms (DSA). These experiences have sharpened my skills in tackling complex computational challenges and reinforced my ability to think critically under pressure.
+            </p>
+        
+            <h2>Professional Approach</h2>
+            <p>
+                I take a proactive and collaborative approach to software development, always eager to learn and innovate. I thrive in fast-paced environments where creativity and technical expertise come together to build impactful solutions. I am committed to continuous learning and staying updated with emerging technologies.
+            </p>
+        
+            <h2>Conclusion</h2>
+            <p>
+                With a strong foundation in software development, problem-solving, and a keen interest in emerging technologies, I am excited to contribute to meaningful projects. I am looking for opportunities where I can grow professionally, collaborate with talented teams, and make a real-world impact.
+            </p>
+            
             <h3>
                 Warm Regards,
             </h3>
             <h3><i>Shruti Saini</i></h3>
         </div>
-
+        
         <footer class="other">
             <div class="box">
-            <h1>You can also directly write an email at: </h1>
-            <h3>shrutisaini1202@gmail.com</h3>
-            <h1>OR</h1>
-            <h3>riyasaini1202@gmail.com</h3>
-        </div>
+                <h1>You can also directly write an email at: </h1>
+                <h3>shrutisaini1202@gmail.com</h3>
+                <h1>OR</h1>
+                <h3>riyasaini1202@gmail.com</h3>
+            </div>
         </footer>
     </body>
 </html>

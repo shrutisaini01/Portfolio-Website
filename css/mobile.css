@@ -19,11 +19,8 @@
     .navbar{
         display: flex;
         flex-direction: column;
-    }
-
-    .left {
-        display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .intro{
@@ -50,7 +47,8 @@
 
     .info,
     .info2,
-    .info3 {
+    .info3,
+    .info4 {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -58,7 +56,8 @@
 
     .info hr,
     .info2 hr,
-    .info3 hr {
+    .info3 hr,
+    .info4 hr {
         width: 100%;
         margin-top: 20px; 
         margin-bottom: 20px; 
@@ -67,7 +66,8 @@
 
     .one img, 
      .two img, 
-     .three img {
+     .three img,
+      .four img {
         height: 264px;
         width: 397px;
         margin: 29px;
@@ -76,12 +76,19 @@
 
    .explain ol li,
    .explain2 ol li,
-   .explain3 ol li {
+   .explain3 ol li,
+    .explain4 ol li {
     list-style: none;
    }
 }
 
 @media screen and (max-width: 770px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .contactBox {
         display: flex;
         flex-direction: column;
@@ -102,6 +109,13 @@
     .formBox textarea {
         width: 42%;
         margin-left: 18%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
     }
 }
 
