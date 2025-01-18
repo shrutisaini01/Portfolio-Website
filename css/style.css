@@ -212,6 +212,11 @@ body {
     color: white;
 }
 
+.explain a{
+    color: white;
+    text-decoration: none;
+}
+
 .bottom {
     margin: 10px 58px;
     padding: 15px;
